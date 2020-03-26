@@ -1,0 +1,11 @@
+FROM nvidia/cuda:10.2-base-ubuntu18.04
+
+MAINTAINER Brian Venturo
+
+RUN apt-get update
+RUN apt-get install -y jq \
+	curl \
+	bc \
+	nano \
+	
+
